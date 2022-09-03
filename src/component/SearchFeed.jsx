@@ -24,7 +24,7 @@ const SearchFeed = () => {
 				<Text color="white" fontSize="20pt">
 					Tất cã kết quả tìm kiếm cho <span style={{ color: "green", textTransform: "uppercase" }}>{searchTerm} </span>
 				</Text>
-				<Videos videos={videos} />
+				<Videos videos={videos} direction="row" />
 			</Box>
 		</Flex>
 	);
